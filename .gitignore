@@ -1,0 +1,11 @@
+# Ignore everything
+*
+
+# But allow directories so we can whitelist files
+!*/
+
+# Keep index.html and this .gitignore
+!index.html
+!.gitignore
+!icons/
+!icons/**
